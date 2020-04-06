@@ -7,4 +7,4 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
 The goal of this Project is to perform the ETL process completely in the cloud and upload a DataFrame to an RDS instance. The second goal is to use PySpark and SQL to perform a statistical analysis of selected data.
 
 ### Introduction
-
+Based in information of the dataset we are going to load the dataset in a Google colab notebook. Alse we are going to install spark, the jdk and java in the google colab to be able to run this big data tasks.
