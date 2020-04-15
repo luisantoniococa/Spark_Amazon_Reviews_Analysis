@@ -16,7 +16,7 @@ Based in information of the dataset we are going to load the dataset in a Google
 #### ETL Process
 + The Schemata was identified and imported from the S3 bucket file. It can ve observed bellow the identified structure
 
-![Schemata_sql](https://github.com/luisantoniococa/Spark_Big_Data_Amazon_Reviews_Analysis/blob/master/Schemata_screenshot.png, Schemata)
+![Schemata_sql](https://github.com/luisantoniococa/Spark_Big_Data_Amazon_Reviews_Analysis/blob/master/Schemata_screenshot.png)
 
 + Next, 4 SQL tables were created with queries 
   + customers
@@ -35,15 +35,15 @@ Based in information of the dataset we are going to load the dataset in a Google
 + The data was imported to a spark dataframe and filtered by helpful votes that are more than 20.
 + A ratio between total votes and helpful votes was created. The most helpful review by percentages plot can be observed below:
 
-![bar_plot](https://github.com/luisantoniococa/Spark_Big_Data_Amazon_Reviews_Analysis/blob/master/percent_barplot.png, Most helpful reviews)
+![bar_plot](https://github.com/luisantoniococa/Spark_Big_Data_Amazon_Reviews_Analysis/blob/master/percent_barplot.png)
 
 + 2 new dataframes were created that divided the data by if the are vine associated or not(paid or unpaid). The summary of those tables can be observed below
 
-![vine_summaries](https://github.com/luisantoniococa/Spark_Big_Data_Amazon_Reviews_Analysis/blob/master/Vine_reviews_summaries.png, vine summaries)
+![vine_summaries](https://github.com/luisantoniococa/Spark_Big_Data_Amazon_Reviews_Analysis/blob/master/Vine_reviews_summaries.png)
 
 + Lastly a ratio of 5 stars reviews with vine or non vine was created and the summaries can be shown below:
 
-![5_stars_reviews](https://github.com/luisantoniococa/Spark_Big_Data_Amazon_Reviews_Analysis/blob/master/5starsReviewsPaid_vs_Unpaid.png, 5 stars)
+![5_stars_reviews](https://github.com/luisantoniococa/Spark_Big_Data_Amazon_Reviews_Analysis/blob/master/5starsReviewsPaid_vs_Unpaid.png)
 
 ## Conclusion
 We were able to determine important insights from the amazon reviews. We found out that about 50 percent of the products sent to the vine reviwers have 5 stars. For further analysis we can include a NLP from the data and identified which are the most generous reviewers from the amazon website.
