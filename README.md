@@ -8,3 +8,11 @@ The goal of this Project is to perform the ETL process completely in the cloud a
 
 ### Introduction
 Based in information of the dataset we are going to load the dataset in a Google colab notebook. Alse we are going to install spark, the jdk and java in the google colab to be able to run this big data tasks.
+
+#### Connecting to the Database
++ Initially, a connection was made to the AWS RDS postgres database thru pyspark. 
++ For this example 2 notebooks were created to retrieve the big data from amazon S3 buckets that contained gz files
++ The data for Jewerly and Home Entertainment was retrieve and save into a spark instance.
+#### ETL Process
++ The Schemata was identified and imported from the S3 bucket file. It can ve observed bellow the identified structure
+
